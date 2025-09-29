@@ -1,0 +1,111 @@
+.m-box{
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+    transition: transform 0.2s easdive, box-shadow 0.2s ease;
+    height: 100%; /* make all cards equal height */
+    
+}
+.next p a {
+    text-decoration: none;
+    color: black;
+}
+
+div.m-box h4{
+    position: relative;
+}   
+
+div.m-box h4::before{
+content: " ";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: greenyellow;
+    z-index: 100;
+    position: absolute;
+    top: 53.7px;
+    left: 0px;
+}
+
+div.m-box h4::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    margin-top: 25px;
+}
+
+    
+
+div.m-boxx h4{
+    position: relative;
+} 
+
+
+.m-boxx h4::before{
+content: " ";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: greenyellow;
+    z-index: 100;
+    position: absolute;
+    top: 53.7px;
+    left: 0px;
+}
+
+.m-boxx h4::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    margin-top: 25px;
+}
+.form-check-label{
+    margin-left: 10px;
+    line-height: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.form-check-input{
+    cursor: pointer;
+}
+.form-check-input:checked{
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+.form-check-input:focus{
+    box-shadow: none;
+    border-color: greenyellow;
+    outline: 0;
+}
+.color{
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    
+}
+
+.color::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .color::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .color::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .color::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

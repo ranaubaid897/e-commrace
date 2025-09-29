@@ -1,0 +1,9 @@
+.container-fluid .row .col-md-4 > img {
+  height: 300px;
+  transition: all 0.5s ease-in-out; /* 👈 put transition here */
+}
+
+.container-fluid .row .col-md-4:hover > img {
+  box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 20px;
+  transform: scale(1.1) rotate(5deg); /* 👈 combine in one line */
+}

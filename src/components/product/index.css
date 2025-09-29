@@ -1,0 +1,119 @@
+/* Product Card Wrapper */
+.product-card {
+
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%; /* make all cards equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover .img-box img {
+  transform: scale(1.20);
+}
+
+/* Image box */
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.img-box img {
+  width: 50%;
+  max-height: 180px;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+
+/* Category */
+.category {
+  display: block;
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Product Title */
+.product-title {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+/* Rating */
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  opacity: 0.7;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+/* Brand */
+.brand {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.brand-link {
+  text-decoration: none;
+  color: green;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+/* Price */
+.price {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Button */
+.add-btn {
+  border: none;
+  background: rgb(161, 234, 161);
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-btn:hover {
+  background: rgb(130, 210, 130);
+}

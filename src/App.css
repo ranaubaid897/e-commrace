@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{ margin: 0px;padding: 0px;box-sizing: border-box;}
+body{  font-family: "Roboto", sans-serif;
+}
+cursor{cursor: pointer;}
+.hd{font-size: 35px; font-weight: 600; ;}
+
+.box{
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  opacity: 0.7;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+/* Brand */
+.brand {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.brand-link {
+  text-decoration: none;
+  color: green;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+/* Price */
+.price {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #555;
+}

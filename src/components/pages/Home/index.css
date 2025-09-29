@@ -1,0 +1,23 @@
+div.col-lg-8.txt ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+}
+
+div.col-lg-8.txt ul li > a {
+    color: black;
+    text-decoration: none;
+}
+
+div.col-lg-8.txt ul li > a:hover {
+    color: rgb(95, 220, 95);
+
+}
+

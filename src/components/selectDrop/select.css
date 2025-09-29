@@ -1,0 +1,11 @@
+ .selectDrop{width: 300px;font-size: 16px; font-weight: 500;position: relative;margin-top: 12px;}
+.selectDdrop{width: 108%;height: 300px;background-color: #fff;position: absolute;top:40px;left:-20px;
+box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 20px; z-index: 103;padding: 20px;}
+.selectDrop >.big-fount{font-size: 16px; font-weight: 500;}
+.selectDrop .arrowIcon{margin-left: 5px;font-size: 25px;}
+
+.searchFild input{width: 100%;height: 40px;border: 1px solid #bce3c9;padding: 10px;outline: 0px; padding: 0px 10px;}
+.selectDdrop .dropList{list-style: none;padding: 5px 0px;margin: 0px;cursor: pointer; max-height: 200px; overflow-y: scroll;}
+.selectDdrop .dropList li{padding: 5px 0px;}
+.selectDdrop .dropList li:hover{background-color: rgba(52, 178, 120,0.9); color:white;}
+.selectDdrop .dropList li.active{background-color: #f1f1f1; color:black !important;}

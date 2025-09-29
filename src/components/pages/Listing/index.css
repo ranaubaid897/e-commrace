@@ -1,0 +1,39 @@
+.color-box{
+    height: 200px;
+    background: rgb(213, 239, 227);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.color-box h3{
+    padding: 20px 30px 0px 30px;
+}
+.color-box ul {
+    display: flex;
+    gap: 20px;
+}
+.color-box ul >li{
+    list-style: none;
+    padding: 10px 0px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.color-box ul >li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* .wrap{
+    display: flex;
+    align-items: center;    
+    gap: 20px;
+    flex-wrap: wrap;
+} */
+
+div.row{
+    margin: 0px 0px !important;
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+.border{ border-bottom:2px solid rgba(0, 0, 0, 0.2)!important; border-top:2px solid rgba(0, 0, 0, 0.2)!important;}
+.categorries a > Button{font-size: 16px; font-weight: 500; text-transform: capitalize; cursor: pointer;background: rgb(95, 220, 95);;padding: 15px;border-radius: 5px; color: white;}
+.categorries a > Button > .icon{font-size: 25px;}
+.categorries a > Button > .icon1{font-size: 25px;}
+.nav-list{list-style: none;display: flex;align-items: center; gap: 30px; font-size: 16px; font-weight: 500; text-transform: capitalize; cursor: pointer; color: black;}
+.nav-list li > a > Button{color: black;}
+.side-icon{display: flex;align-items: center; gap: 15px; font-size: 16px; font-weight: 500; text-transform: capitalize; cursor: pointer; color: black; }
+.side-icon .number .num{font-size: 30px; color: rgb(95, 220, 95); ;}
+.side-icon > .icon{font-size: 50px;}
+.side-icon .number > p{font-size: 16px; text-align: center;}
+.sub-pages{position: relative;}
+.sub-pages > ul > li{list-style: none; font-size: 16px; font-weight: 500; text-transform: capitalize; cursor: pointer; color: black; padding: 5px 0px;}
+.sub-pages > ul {width: 300px;height: auto; background-color: #fff;position: absolute;top: 35px;left: 0px;box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 20px; z-index: 100;padding: 20px;}
+.black > Button{color: black !important;}
+.mega-style{position: absolute; top: 100%; left: 0px;  height: auto; background-color: #fff;box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 20px; z-index: 100;padding: 0px;}
+.img-fluid{  max-width: 100%;height: auto;}
+.mega-style ul{padding: 0px;}
+.mega-style ul li{list-style: none; font-size: 16px; font-weight: 500; text-transform: capitalize; cursor: pointer; color: black; padding: 5px 0px; opacity: 0.7;}
+.mega-style ul li>a{color: black !important;text-decoration: none;}
+.sub-pages ul li{opacity: 0.7;}
